@@ -1,0 +1,14 @@
+C:\Users\Ayon\Documents\Visual Studio 2013\Projects\Project\Project\bin\Release\Project.exe.config
+C:\Users\Ayon\Documents\Visual Studio 2013\Projects\Project\Project\bin\Release\Project.exe
+C:\Users\Ayon\Documents\Visual Studio 2013\Projects\Project\Project\bin\Release\Project.pdb
+C:\Users\Ayon\Documents\Visual Studio 2013\Projects\Project\Project\obj\Release\Project.csprojResolveAssemblyReference.cache
+C:\Users\Ayon\Documents\Visual Studio 2013\Projects\Project\Project\obj\Release\MainWindow.g.cs
+C:\Users\Ayon\Documents\Visual Studio 2013\Projects\Project\Project\obj\Release\App.g.cs
+C:\Users\Ayon\Documents\Visual Studio 2013\Projects\Project\Project\obj\Release\Project_MarkupCompile.cache
+C:\Users\Ayon\Documents\Visual Studio 2013\Projects\Project\Project\obj\Release\Project_MarkupCompile.lref
+C:\Users\Ayon\Documents\Visual Studio 2013\Projects\Project\Project\obj\Release\MainWindow.baml
+C:\Users\Ayon\Documents\Visual Studio 2013\Projects\Project\Project\obj\Release\Project.g.resources
+C:\Users\Ayon\Documents\Visual Studio 2013\Projects\Project\Project\obj\Release\Project.Properties.Resources.resources
+C:\Users\Ayon\Documents\Visual Studio 2013\Projects\Project\Project\obj\Release\Project.csproj.GenerateResource.Cache
+C:\Users\Ayon\Documents\Visual Studio 2013\Projects\Project\Project\obj\Release\Project.exe
+C:\Users\Ayon\Documents\Visual Studio 2013\Projects\Project\Project\obj\Release\Project.pdb

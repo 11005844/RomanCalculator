@@ -1,0 +1,46 @@
+﻿<Window x:Class="Project.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Roman Calculator" Height="360" Width="300"
+        xmlns:VM="clr-namespace:Project.ViewModel">
+ 
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"></RowDefinition>
+            <RowDefinition Height="50"></RowDefinition>
+            <RowDefinition Height="50"></RowDefinition>
+            <RowDefinition Height="50"></RowDefinition>
+            <RowDefinition Height="50"></RowDefinition>
+            <RowDefinition Height="50"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="100"></ColumnDefinition>
+            <ColumnDefinition Width="100"></ColumnDefinition>
+            <ColumnDefinition Width="100"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <StackPanel Grid.Row="1" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Label Content="Input I" HorizontalAlignment="Center" VerticalAlignment="Center"></Label>
+        </StackPanel>
+        <StackPanel Grid.Row="1" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" Width="Auto">
+            <TextBox Name="Input1"  Text="{Binding Input1}" HorizontalAlignment="Center" VerticalAlignment="Center" Width="100"></TextBox>
+        </StackPanel>
+        <StackPanel Grid.Row="2" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Label Content="Input II" HorizontalAlignment="Center" VerticalAlignment="Center"></Label>
+        </StackPanel>
+        <StackPanel Grid.Row="2" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" Width="Auto">
+            <TextBox HorizontalAlignment="Center" VerticalAlignment="Center" Width="100" Text="{Binding Input2}"></TextBox>
+        </StackPanel>
+        <StackPanel Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Center" Width="Auto">
+            <Label Name="isValid" Foreground="Blue" FontWeight="Bold" Content="{Binding Path=MyOutputValue, Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" HorizontalAlignment="Center" VerticalAlignment="Center" DataContext="{Binding CurrentInput}" ></Label>
+        </StackPanel>
+        <StackPanel Grid.Row="4" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" Width="Auto">
+            <Button Content="Evaluate" HorizontalAlignment="Center" VerticalAlignment="Center" Width="100" Height="30" Command="{Binding ExecuteConversion}" ></Button>
+        </StackPanel>
+        <StackPanel Grid.Row="5" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center" Width="Auto">
+            <Label Content="Result" HorizontalAlignment="Center" VerticalAlignment="Center" ></Label>
+        </StackPanel>
+        <StackPanel Grid.Row="5" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" Width="Auto">
+            <TextBox Name="Out" HorizontalAlignment="Center" VerticalAlignment="Center" Width="100" Text="{Binding Path=MyOutputValue, Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" ></TextBox>
+        </StackPanel>
+    </Grid>
+</Window>

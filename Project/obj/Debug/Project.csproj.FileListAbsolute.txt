@@ -1,0 +1,14 @@
+D:\Personal\SAD_VishveshSir\Ayon_sir\Project\Project\bin\Debug\Project.exe.config
+D:\Personal\SAD_VishveshSir\Ayon_sir\Project\Project\bin\Debug\Project.exe
+D:\Personal\SAD_VishveshSir\Ayon_sir\Project\Project\bin\Debug\Project.pdb
+D:\Personal\SAD_VishveshSir\Ayon_sir\Project\Project\obj\Debug\MainWindow.baml
+D:\Personal\SAD_VishveshSir\Ayon_sir\Project\Project\obj\Debug\MainWindow.g.cs
+D:\Personal\SAD_VishveshSir\Ayon_sir\Project\Project\obj\Debug\App.g.cs
+D:\Personal\SAD_VishveshSir\Ayon_sir\Project\Project\obj\Debug\Project_MarkupCompile.cache
+D:\Personal\SAD_VishveshSir\Ayon_sir\Project\Project\obj\Debug\Project.g.resources
+D:\Personal\SAD_VishveshSir\Ayon_sir\Project\Project\obj\Debug\Project.Properties.Resources.resources
+D:\Personal\SAD_VishveshSir\Ayon_sir\Project\Project\obj\Debug\Project.csproj.GenerateResource.Cache
+D:\Personal\SAD_VishveshSir\Ayon_sir\Project\Project\obj\Debug\Project.exe
+D:\Personal\SAD_VishveshSir\Ayon_sir\Project\Project\obj\Debug\Project.pdb
+D:\Personal\SAD_VishveshSir\Ayon_sir\Project\Project\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Personal\SAD_VishveshSir\Ayon_sir\Project\Project\obj\Debug\Project_MarkupCompile.lref
